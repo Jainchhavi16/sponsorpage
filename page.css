@@ -1,0 +1,148 @@
+body{
+/* background-image: url("https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+#top1{
+/*  color: white;*/
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+  .carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left:40%;
+  text-align: center;
+
+  font-size: 40px;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+/*#top{
+  background-image: url("background.png");
+  height: 55vh;
+  width: 100vw;
+  background-position: 50% 0;
+  background-size: cover;
+
+}*/
+.zoom{
+  background-color: snow;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+/******************* Accordion Demo - 2 *****************/
+#accordion2 .panel-title a{
+    display: block;
+    padding: 12px 15px 12px 50px;
+    background: linear-gradient(to bottom, #fefefe, #cdcdcd);
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #676767;
+    text-shadow: 1px 1px 1px #fff;
+    position: relative;
+}
+#accordion2 .panel-title a:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: #929191;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: none;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+#accordion2 .panel-title a.collapsed:before{ content: "\f067"; }
+#accordion2 .panel-body{
+    padding: 0px 15px;
+    font-size: 15px;
+    color: #222;
+    line-height: 27px;
+    border: none;
+}
+#accordion2 .panel-body p{ margin-bottom: 0; }
+
+.toolBox {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 25px 0 rgba(11,25,29,.1);
+    -moz-box-shadow: 0 0 25px 0 rgba(11,25,29,.1);
+    box-shadow: 0 0 25px 0 rgba(11,25,29,.1);
+    text-align: left;
+}
+
+.subHeadText {
+    font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+    color: #999;
+}
+#iconfooter a {
+    color: #000;
+}
+.con{
+  color: white;
+}
+#faqs{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-blend-mode: hue;
+}
+.pay{
+  border-style: outset;
+  border-radius: 10px;
+  border-width: medium;
+  padding-top: 25px;
+  border-spacing: inherit;
+}
+.cool{
+    background: linear-gradient(to bottom, #E8E8E8 0%, #ffffff 100%); 
+}
+.nop{
+  background: linear-gradient(to bottom, rgba(12,12,12,0.84) 0%, #ffffff 100%);
+}
+.eve{
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.container{
+
+
+ margin-right: auto;
+ margin-left: auto;
+ padding-left: 0px;
+ padding-right: 0px;
+}
+#events{
+  background: linear-gradient(to bottom, #E8E8E8 0%, #ffffff 100%);
+}
+.icon-top{
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
